@@ -23,6 +23,13 @@ $ npm start
 $ npm stop
 ```
 
+**Docker**
+
+```bash
+$ docker build -t egg-boilerplate .
+$ docker run -p 7001:7001 egg-boilerplate
+```
+
 ### 单元测试
 
 - [egg-bin] 内置了 [mocha], [thunk-mocha], [power-assert], [istanbul] 等框架，让你可以专注于写单元测试，无需理会配套工具。

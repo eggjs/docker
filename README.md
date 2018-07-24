@@ -23,6 +23,13 @@ $ npm start
 $ npm stop
 ```
 
+**Docker**
+
+```bash
+$ docker build -t egg-boilerplate .
+$ docker run -p 7001:7001 egg-boilerplate
+```
+
 ### npm scripts
 
 - Use `npm run lint` to check code style.

@@ -10,13 +10,11 @@ RUN \
 
 WORKDIR /usr/src/app
 
-COPY package.json /usr/src/app/
-
-RUN npm i
-
 # RUN npm i --registry=https://registry.npm.taobao.org
 
 COPY . /usr/src/app
+
+RUN npm i
 
 EXPOSE 7001
 
